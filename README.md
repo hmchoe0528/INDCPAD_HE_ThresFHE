@@ -6,11 +6,11 @@ Jung Hee Choeon (SNU & Crypto Lab Inc.)
 
 Hyeongmin Choe (SNU)
 
-Alain Passelegue (Crypto Lab Inc.)
+Alain Passelègue (CryptoLab Inc.)
 
-Damien Stehlé (Crypto Lab Inc.)
+Damien Stehlé (CryptoLab Inc.)
 
-Elias Suvanto (Crypto Lab Inc.)
+Elias Suvanto (CryptoLab Inc.)
 
 # KRD experiments
 
