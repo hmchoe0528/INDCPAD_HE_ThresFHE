@@ -1,10 +1,15 @@
 # INDCPAD_HE_ThresFHE
 
 This is a git repository that implements the IND-CPA-D attacks introduced in ``Attacks Against the IND-CPAD Security of Exact FHE Schemes`` written by the following authors:
+
 Jung Hee Choeon (SNU & Crypto Lab Inc.)
+
 Hyeongmin Choe (SNU)
+
 Alain Passelegue (Crypto Lab Inc.)
+
 Damien Stehlé (Crypto Lab Inc.)
+
 Elias Suvanto (Crypto Lab Inc.)
 
 # KRD experiments
