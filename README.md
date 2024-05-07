@@ -14,8 +14,7 @@ Elias Suvanto (CryptoLab Inc.)
 
 # KRD experiments
 
-This folder contains 5 folders concerning TFHE:
--   TFHE-rs library: An implementation of TFHE (available at https://github.com/zama-ai/tfhe-rs, commit ``ad41fdf5a5060c0a981cd0c35bf998feafe68e02``). 
+This folder contains 4 folders concerning TFHE:
 -   collect\_TFHE\_ciphertexts: Rust code using TFHE-rs to run the oracle side. 
 -   collected\_samples: Outputs from the above (specifically, from the custom parameter). 
 -   TFHE\_KRD: Python code reading the samples (failed ciphertexts) and guessing the secret key. This is the KRD adversary side. 
@@ -29,7 +28,7 @@ and 2 folders about BFV KRD:
 
 There are two options:
 -   Running a TFHE library: Run  ```cargo run --release > ../collected_samples/failed_ctxt.out``` inside the ```collect_TFHE_ciphertexts``` folder.
-It will run the paper TFHE KRD collecting part using the ```TFHE-rs``` library.
+It will run the paper TFHE KRD collecting part using the ```TFHE-rs``` library version 0.5.4. The library is available at https://github.com/zama-ai/tfhe-rs (tested also with commit ``ad41fdf5a5060c0a981cd0c35bf998feafe68e02``).
 It will use the 128-bit IND-CPA secure custom parameters. It will then put the collected ciphertexts as a text file in the ```collected_samples``` folder
 -   Simulating using rejection sampling: Run  `python3 simulate_TFHE_ciphertexts/main.py > ../collected_samples/sim_failed_ctxt.out` to generate incorrect ciphertexts using a rejection sampling technique on the conditioned distribution detailed in the paper.
 
