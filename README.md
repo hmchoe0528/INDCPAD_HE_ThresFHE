@@ -2,7 +2,7 @@
 
 This is a git repository that implements the IND-CPA-D attacks introduced in [Attacks Against the IND-CPA^D Security of Exact FHE Schemes](https://eprint.iacr.org/2024/127.pdf) written by the following authors:
 
-Jung Hee Choeon (SNU & Crypto Lab Inc.)
+Jung Hee Cheon (SNU & Crypto Lab Inc.)
 
 Hyeongmin Choe (SNU)
 
