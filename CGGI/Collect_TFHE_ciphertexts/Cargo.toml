@@ -1,0 +1,10 @@
+[package]
+name = "collect_failures"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tfhe = { path = "../tfhe-rs/tfhe", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
+rayon = "1.7"
